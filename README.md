@@ -37,7 +37,7 @@ The offer has a form title, a client name and is composed of a list of products 
 
 ### Some ideas
 
-These ideas is not requirements, they are just optionals ideas...
+These ideas are not requirements, they are just options ideas...
 
 * drag and drop the order of the products in the offer
 * list the stored offers
@@ -49,6 +49,6 @@ If you want to participate you can fork the repo and implement your own solution
 
 ### Deadline
 
-You must create a release on your own forked repository before the **4th of july at 00:00 CEST**. Send us an email with a short description (hours, challenges, choices) of your job and a link to your repository.
+You must create a release on your own forked repository before the **4th of July at 00:00 CEST**. Send us an email with a short description (hours, challenges, choices) of your job and a link to your repository.
 
 **GL, HF**
