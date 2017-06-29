@@ -45,10 +45,10 @@ These ideas is not requirements, they are just optionals ideas...
 
 ## Participate
 
-If you want to participate you can fork the repo and implement your own solution, if you don't want to let it public you can add @GuggerJoel. If your repository is public but you wan't share your work until the end of the challenge you can push your job just before the deadline.
+If you want to participate you can fork the repo and implement your own solution, if you don't want to let it public you can add @GuggerJoel.
 
-### Deadline
+### Deadline
 
-You must create a release on your own forked repository before the 4th of july at 00:00 CEST. Send us an email with a short description of your job and a link to your repository.
+You must create a release on your own forked repository before the **4th of july at 00:00 CEST**. Send us an email with a short description (hours, challenges, choices) of your job and a link to your repository.
 
 **GL, HF**
