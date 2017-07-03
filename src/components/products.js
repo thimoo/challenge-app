@@ -3,38 +3,22 @@
  */
 import React, { Component} from 'react'
 import Axios from 'axios';
-
-const Product = (props) => {
-    "use strict";
-    return (
-        <div className="card">
-            <div className="card-block">
-                <h3 className="card-title">{props.name}</h3>
-                <p className="card-text">{ props.description}</p>
-                <a className="btn btn-primary">Add</a>
-            </div>
-        </div>
-    );
-}
+import Product from './Product'
 
 class Products extends Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            'products': []
-        }
+    state = {
+        products: []
     }
     render(){
+        let products = this.state.products.map(product =>
+                <Product key={product.id} product={product} selectProduct={this.props.selectProduct}/>
+        )
         return(
             <div className="col-md-4">
-                <h2>List of products</h2>
-                <div className="card">
-                    <ul className="list-group list-group-flush">
-                        {
-                            this.state.products.map(product => <Product key={product.id} {...product}/>)
-                        }
-                    </ul>
-                </div>
+                <h2 className="text-center">List of products</h2>
+                <ul className="list-group list-group-flush">
+                    {products}
+                </ul>
             </div>
         );
     }
@@ -43,7 +27,6 @@ class Products extends Component {
             this.setState({
                 'products': response.data
             })
-            console.dir(response.data)
         }).catch(function (error) {
             console.error(error)
         })

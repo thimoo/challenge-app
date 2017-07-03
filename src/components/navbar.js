@@ -14,7 +14,7 @@ class Navbar extends Component {
     render(){
         return(
             <nav className="navbar navbar-inverse bg-inverse">
-                <a className="navbar-brand text-center" href="#">
+                <a className="navbar-brand text-center">
                     { this.state.name}
                 </a>
             </nav>
